@@ -21,10 +21,10 @@ const HomeContainer = () => {
                     </div>
                 </div>
 
-                <p className='text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor'>
-                    The Fastest Delivery in
-                    <span className='text-orange-600 text-[3rem] lg:text-[5rem]'>
-                        Your City
+                <p className='text-[2.5rem] lg:text-[3.8rem] font-bold tracking-wide text-headingColor'>
+                    A entrega mais rápida em 
+                    <span className='text-orange-600 text-[3rem] lg:text-[3.8rem] p-3'>
+                        Sua Cidade
                     </span>
                 </p>
                 <p className='text-base text-textColor text-center md:text-left md:w-[80%]'>
@@ -35,18 +35,18 @@ const HomeContainer = () => {
                 </p>
                 <button
                     type='button'
-                    className='bg-gradient-to-br from-orange-400 to-orange-500 w-full md:w-auto px-4 py-2 rounded-lg hover:shadow-lg transition-all ease-in-out duration-100'
+                    className='bg-gradient-to-br from-orange-400 to-orange-500 w-full md:w-auto px-4 py-2 rounded-lg hover:shadow-lg transition-all ease-in-out duration-100 cursor-pointer'
                 >
-                    Order Now
+                  Comprar Agora
                 </button>
             </div>
             <div className='py-2 flex-1 flex items-center relative'>
                 <img
                     src={heroBg}
-                    className='ml-auto h-420 w-full lg:w-auto lg:h-650'
+                    className='ml-auto h-420 w-full lg:w-auto lg:h-600'
                     alt='hero-bg'
                 />
-                <div className='w-full h-full absolute top-0 left-0 flex items-center justify-center lg:px-32 py-4 gap-4 flex-wrap'>
+                <div className='w-full h-full absolute top-0 left-0 flex items-center justify-center lg:py-4 gap-6 flex-wrap w-100 h-100'>
                     {
                         heroData &&
                         heroData.map((index) => (
@@ -70,7 +70,7 @@ const HomeContainer = () => {
                                 </p>
                             </div>
                         ))
-                        }
+                    }
                 </div>
             </div>
         </section>

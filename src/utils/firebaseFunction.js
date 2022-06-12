@@ -19,6 +19,7 @@ export const saveItem = async (data) => {
 
 //Pegar todos os items
 export const getAllFoodItems = async () => {
+  
     const items = await getDocs(
         query(
             collection(firestore, "foodItems"),

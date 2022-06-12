@@ -5,16 +5,12 @@ import notFound from "../img/NotFound.svg"
 import { useStateValue } from "../context/StateProvider"
 import { actionType } from "../context/reducer"
 
-const RowContainer = ({flag, data, scrollValue}) => {
-
-    console.log("Resultado = ", data)
+const RowContainer = ({ flag, data, scrollValue }) => {
 
     const rowContainer = useRef()
-
     const [items, setItems] = useState([])
-
     const [{ cartItems }, dispatch] = useStateValue()
-
+   
     const addToCart = () => {
         dispatch({
             type: actionType.SET_CARTITEMS,
@@ -24,12 +20,13 @@ const RowContainer = ({flag, data, scrollValue}) => {
     }
 
     useEffect(() => {
-        rowContainer.current.scrollLeft += scrollValue
+        rowContainer.current.scrollLeft = scrollValue
     }, [scrollValue])
 
     useEffect(() => {
         addToCart()
     }, [items])
+
 
     return (
         <div
@@ -88,7 +85,7 @@ const RowContainer = ({flag, data, scrollValue}) => {
                     </p>
                 </div>
             )}
-        </div>
+        </div >
     )
 }
 

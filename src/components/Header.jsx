@@ -59,7 +59,7 @@ const Header = () => {
     }
 
     return (
-        <header className="fixed z-50 w-screen p-3 px-4 md:p-6 md:px-16 bg-primary">
+        <header className="fixed z-50 w-screen p-3 px-4 md:p-6 md:px-5 bg-primary">
             {/*Desktop & Tablet*/}
             <div className="hidden md:flex w-full h-full items-center justify-between">
                 <Link to={"/"} className="flex items-center gap-2">
@@ -74,18 +74,26 @@ const Header = () => {
                         exit={{ opacity: 0, x: 200 }}
                         className="flex items-center gap-24"
                     >
-                        <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-                            Home
-                        </li>
-                        <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-                            Menu
-                        </li>
-                        <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-                            About Us
-                        </li>
-                        <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-                            Service
-                        </li>
+                        <Link to={"/"}>
+                            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+                                Home
+                            </li>
+                        </Link>
+                        <Link to={"/"}>
+                            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+                                Menu
+                            </li>
+                        </Link>
+                        <Link to={"/"}>
+                            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+                               Sobre Nós
+                            </li>
+                        </Link>
+                        <Link to={"/"}>
+                            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+                                Serviços
+                            </li>
+                        </Link>
                     </motion.ul>
 
                     <div className="relative flex items-center justify-center"
