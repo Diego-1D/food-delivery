@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/food-delivery/static/css/main.bda1d97c.css",
-    "main.js": "/food-delivery/static/js/main.f01a1ec7.js",
-    "static/media/logo.png": "/food-delivery/static/media/logo.0f99324454e3c3ccba98.png",
-    "static/media/f1.png": "/food-delivery/static/media/f1.c52686695ee9a5c4cd0d.png",
-    "static/media/c1.png": "/food-delivery/static/media/c1.fb0c24a12fb6ba1154f5.png",
-    "static/media/r1.png": "/food-delivery/static/media/r1.e8133d9fa0af19308fbf.png",
-    "static/media/i1.png": "/food-delivery/static/media/i1.3d9b129d2c5432c6f1fb.png",
-    "static/media/heroBg.png": "/food-delivery/static/media/heroBg.c43c4862422e70d88698.png",
-    "static/media/delivery.png": "/food-delivery/static/media/delivery.bf9130a0962fbe091abc.png",
-    "static/media/avatar.png": "/food-delivery/static/media/avatar.68cdc4513e601d28a382.png",
-    "static/media/emptyCart.svg": "/food-delivery/static/media/emptyCart.71ad17e692d71caa77c6c9351f84756b.svg",
-    "static/media/NotFound.svg": "/food-delivery/static/media/NotFound.4e90bb93460bfd8d9e2c86b42ef91a4a.svg",
-    "index.html": "/food-delivery/index.html",
-    "main.bda1d97c.css.map": "/food-delivery/static/css/main.bda1d97c.css.map",
-    "main.f01a1ec7.js.map": "/food-delivery/static/js/main.f01a1ec7.js.map"
+    "main.css": "/static/css/main.bda1d97c.css",
+    "main.js": "/static/js/main.1b0e267e.js",
+    "static/media/logo.png": "/static/media/logo.0f99324454e3c3ccba98.png",
+    "static/media/f1.png": "/static/media/f1.c52686695ee9a5c4cd0d.png",
+    "static/media/c1.png": "/static/media/c1.fb0c24a12fb6ba1154f5.png",
+    "static/media/r1.png": "/static/media/r1.e8133d9fa0af19308fbf.png",
+    "static/media/i1.png": "/static/media/i1.3d9b129d2c5432c6f1fb.png",
+    "static/media/heroBg.png": "/static/media/heroBg.c43c4862422e70d88698.png",
+    "static/media/delivery.png": "/static/media/delivery.bf9130a0962fbe091abc.png",
+    "static/media/avatar.png": "/static/media/avatar.68cdc4513e601d28a382.png",
+    "static/media/emptyCart.svg": "/static/media/emptyCart.71ad17e692d71caa77c6c9351f84756b.svg",
+    "static/media/NotFound.svg": "/static/media/NotFound.4e90bb93460bfd8d9e2c86b42ef91a4a.svg",
+    "index.html": "/index.html",
+    "main.bda1d97c.css.map": "/static/css/main.bda1d97c.css.map",
+    "main.1b0e267e.js.map": "/static/js/main.1b0e267e.js.map"
   },
   "entrypoints": [
     "static/css/main.bda1d97c.css",
-    "static/js/main.f01a1ec7.js"
+    "static/js/main.1b0e267e.js"
   ]
 }
